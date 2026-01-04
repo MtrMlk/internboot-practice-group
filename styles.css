@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #2563eb; /* Professional Blue */
+  --secondary-color: #1e293b; /* Dark Slate */
+  --accent-color: #38bdf8; /* Sky Blue */
+  --bg-light: #f8fafc; /* Off-white background */
+  --text-main: #0f172a; /* Near black for readability */
+  --text-muted: #64748b; /* Grey for descriptions */
+  --white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text-main);
+  line-height: 1.6;
+}
