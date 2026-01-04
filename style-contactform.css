@@ -1,0 +1,55 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+}
+h1{
+	text-align: center;
+}
+
+.form-container{
+	width: 60%;
+	margin: auto;
+	padding: 4rem;
+	border: 2px solid gray;
+	border-radius: 1rem;
+}
+
+textarea{
+    width: 50%;
+    height: 2rem;
+    margin: auto;
+    display: block;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+input[type=text],input[type=email],input[type=number],
+label[for=name],label[for=email],label[for=message]
+{
+	width:50%;
+	height: 2rem;
+	margin: auto;
+	display: block;
+}
+input[type=text],input[type=email]{
+	border: 0.1rem solid #000;
+}
+
+select{ 
+	width:50%;
+	height: 2rem;
+	margin: auto;
+	display: block;
+}
+#registerbutton{
+	width:50%;
+	height: 3rem;
+	margin: auto;
+	display: block;
+	color: #fff;
+	background-color: #000;
+}
+button:hover{
+		cursor: pointer;
+	}
