@@ -19,38 +19,3 @@ body {
   color: var(--text-main);
   line-height: 1.6;
 }
-
-/* NAVBARSTART (Ayomide) */
-  header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    padding: 0 20px;
-  }
-  .header-left{
-    display: flex;
-    align-items: center;
-  }
-  .header-left img{
-    width: 90px;
-  }
-  .header-left p{
-    font-size: 25px;
-    font-weight: bold;
-    color: var(--secondary-color);
-  }
-  .nav-container{
-    display: flex;
-    justify-content: space-between;
-    width:20%;
-  }
-  .nav-container a{
-    color: var(--secondary-color);
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-  }
-/* NAVBAREND */
