@@ -7,6 +7,7 @@
   --text-muted: #64748b; /* Grey for descriptions */
   --white: #ffffff;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -19,3 +20,78 @@ body {
   color: var(--text-main);
   line-height: 1.6;
 }
+
+/* CONTACT FORM (Arli) */
+
+.contact-container {
+  border: 2px solid var(--text-muted);
+  border-radius: 10px;
+  width: 40%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  width: 100%;
+  padding: 25px;
+  background-color: var(--bg-light);
+}
+
+.contact-form h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: var(--text-main);
+}
+
+label {
+  color: var(--text-main);
+  font-size: 17px;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  /* padding: 50px; */
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  height: 100px;
+  padding-top: 10px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  font-size: 17px;
+  background-color: var(--primary-color);
+  color: var(--text-main);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #7a2d58;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* CONTACT FORM END (Arli) */
